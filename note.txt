@@ -1,3 +1,9 @@
 1. unix/linux basic command operation tutorial:
     http://www.ee.surrey.ac.uk/Teaching/Unix/
     
+2. add this line to .bashrc to avoid typing it everytime opening a new shell
+    source /opt/ros/kinetic/setup.bash
+    run this following line in terminal:
+        echo 'source /opt/ros/kinetic/setup.bash' >> ~/.bashrc
+
+3. 
