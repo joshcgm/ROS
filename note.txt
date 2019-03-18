@@ -6,4 +6,14 @@
     run this following line in terminal:
         echo 'source /opt/ros/kinetic/setup.bash' >> ~/.bashrc
 
-3. 
+3. source the beginner_tutorials
+    $ cd ~/catkin_ws
+    $ source devel/setup.bash
+    $ roscd beginner_tutorials
+
+4. when creating msg and srv, add these two lines of code to package.xml to make sure that they are turned to source code for C++, python, and other languages.
+    <build_depend>message_generation</build_depend>
+    <exec_depend>message_runtime</exec_depend>
+
+5. SIGINT means Ctrl+C
+
