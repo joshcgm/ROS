@@ -17,3 +17,7 @@
 
 5. SIGINT means Ctrl+C
 
+6. type this command to solve the issue that Arduino failed to deploy with "Permission denied".
+   sudo chmod a+rw /dev/ttyACM0
+
+
