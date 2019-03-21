@@ -20,4 +20,9 @@
 6. type this command to solve the issue that Arduino failed to deploy with "Permission denied".
    sudo chmod a+rw /dev/ttyACM0
 
-
+7. Bring up gazebo with Turtlebot in Kinetic version
+   (1) sudo apt-get install ros-kinetic-turtlebot-gazebo
+       source /opt/ros/kinetic/setup.bash
+   (2) roslaunch turtlebot_gazebo turtlebot_world.launch
+   (3) roslaunch turtlebot_teleop keyboard_teleop.launch
+   (4) roslaunch turtlebot_rviz_launchers view_robot.launch
